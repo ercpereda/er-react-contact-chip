@@ -3,7 +3,7 @@ var webpackMerge = require('webpack-merge');
 var path = require('path');
 
 var config = webpackMerge(commonConfig, {
-  entry: './src/ContactChips.js',
+  entry: './src/ContactChip.js',
 
   output: {
     path: path.join(__dirname, '../dist'),
